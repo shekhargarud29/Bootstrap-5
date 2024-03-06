@@ -1,0 +1,13 @@
+.width {
+  width: 50%;
+}
+
+.grayscale {
+  filter: contrast(0.5);
+}
+
+@media (max-width: 768px) {
+  .width {
+    width: 100%;
+  }
+}
